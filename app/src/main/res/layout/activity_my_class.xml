@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gilangprambudi.myvhisix.MyClassActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Class"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="IAK Sample Class"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Member"
+                    android:layout_weight="1"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/memberCount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="1 Member"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/discussionBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/join_discussion"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Students"
+                android:layout_marginTop="20dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/student_recycler"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

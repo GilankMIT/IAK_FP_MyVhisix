@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "696715967790",
+    "firebase_url": "https://vhisixapp23.firebaseio.com",
+    "project_id": "vhisixapp23",
+    "storage_bucket": "vhisixapp23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696715967790:android:31b3615a7b0ed441",
+        "android_client_info": {
+          "package_name": "com.example.gilangprambudi.myvhisix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696715967790-63ntfi9h5d7r5j11iu889vu422dffq2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gilangprambudi.myvhisix",
+            "certificate_hash": "4f652d972e5f0c359d92419efb4fca4e4cffd998"
+          }
+        },
+        {
+          "client_id": "696715967790-5cfm5fm3gqnnn2dhcfout727cjs64oc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9BqKRhcJuhR8PY1yWzgnpCIY-8fu57k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696715967790-5cfm5fm3gqnnn2dhcfout727cjs64oc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
