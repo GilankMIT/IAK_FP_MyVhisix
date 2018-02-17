@@ -24,7 +24,8 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".MyClassActivity" />
         <activity android:name=".OtherProfileActivity" />
-        <activity android:name=".DiscussionActivity"></activity>
+        <activity android:name=".DiscussionActivity" />
+        <activity android:name=".ForgetPasswordActivity"></activity>
     </application>
 
 </manifest>

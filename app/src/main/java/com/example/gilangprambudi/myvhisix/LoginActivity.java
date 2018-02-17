@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button btnLogin, btnRegister;
+    Button btnLogin, btnRegister, btnResetPassword;
     EditText textEmail, textPassword;
     ProgressBar progressBar;
     private FirebaseAuth auth;
@@ -32,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
 
         btnLogin = findViewById(R.id.sign_in_button);
         btnRegister = findViewById(R.id.to_sign_up_button);
+        btnResetPassword = findViewById(R.id.btn_reset_password);
+
 
         textEmail = findViewById(R.id.email);
         textPassword = findViewById(R.id.password);
@@ -87,6 +89,14 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+
+
+        btnResetPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getBaseContext(), ForgetPasswordActivity.class));
             }
         });
     }
